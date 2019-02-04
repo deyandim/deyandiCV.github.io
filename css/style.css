@@ -2,6 +2,7 @@
     /* background-color:rgb(131, 134, 134); */
 padding-left: 0px;
 padding-right: 1px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 #leftEdu {
     
@@ -11,7 +12,7 @@ padding-right: 1px;
     /* background-color: #666 */
 }
 #leftSide {
-    /* color: white;  */
+    /* font-family: 'Courier New', Courier, monospace; */
     padding-left: 1px;
     background-color: rgb(76, 85, 165)
     /* background-color:azure; */
@@ -47,4 +48,7 @@ footer{
 #last div{
     text-align: center;
     margin-top: 15px;
+}
+a {
+    color: black;
 }
