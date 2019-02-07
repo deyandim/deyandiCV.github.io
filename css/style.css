@@ -16,7 +16,22 @@
 #leftSide {
     border-top-left-radius: 20px;
     padding-left: 1px;
-    background-color: rgb(76, 85, 165)
+    background-color: rgb(76, 85, 165);
+}
+#courses h4 {
+    text-align: center;
+}
+#last div {
+    text-align: center;
+    margin-top: 15px;
+}
+#basicCertif, #technologyCertif {
+    display: none;
+}
+#showBasicCertif, #showTechnoCertif {
+    border-radius: 10px;
+    background-color: rgb(76, 85, 165);
+    margin-bottom: 5px;
 }
 
 .card-header {
@@ -45,15 +60,9 @@ footer {
     background-color: rgb(76, 85, 165);
 }
 
-#last div {
-    text-align: center;
-    margin-top: 15px;
-}
+
 
 a {
     color: black;
 }
 
-#courses h4 {
-    text-align: center;
-}
