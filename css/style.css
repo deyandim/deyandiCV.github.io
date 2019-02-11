@@ -62,7 +62,7 @@
 }
 #mainSkills {
     background-color: rgb(192, 180, 165);
-    border-radius: 3%
+
 }
 
 .card-header {
@@ -113,10 +113,13 @@ a {
     #myPhoto {width: 220%}
     #myPhoto {margin-right: -100%}
 
-    #mobileMain {width: 100%}
+    #mobileMain {width: 90%}
     #skills {width: 90%}
 
-    #mobileMain {border-radius: 3%}
-    #mainSkills {border-radius: 3%}
+    /*#mobileMain {border-top-left-radius: 3%}*/
+    /*#mobileMain {border-top-right-radius: 3%}*/
+    #mainSkills {border-top-left-radius: 3%}
+    #mainSkills {border-top-right-radius: 3%}
+    /*#mainSkills {border-radius: 3%}*/
 
 }
