@@ -47,6 +47,8 @@
     display: none;
     width: 25%;
     text-align: center;
+
+
 }
 
 #hyperToExp {
@@ -109,9 +111,9 @@ a {
     #mobileType {display: block}
     #leftSide {display: none;}
     #myPhoto {width: 220%}
-    #myPhoto {margin-left: 80%}
+    #myPhoto {margin-right: -100%}
 
-    #mobileMain {width: 90%}
+    #mobileMain {width: 100%}
     #skills {width: 90%}
 
     #mobileMain {border-radius: 3%}
