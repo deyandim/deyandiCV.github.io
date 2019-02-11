@@ -65,7 +65,7 @@ footer {
 a {
     color: black;
 }
-@media (max-width:629px) {
+@media (min-width:629px) {
     #leftSide {
         display: none;
     }
