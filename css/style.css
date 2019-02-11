@@ -65,8 +65,15 @@ footer {
 a {
     color: black;
 }
-@media (min-width:629px) {
-    #leftSide {
-        display: none;
-    }
+/*@media (max-width:629px) {*/
+    /*#leftSide {*/
+        /*!*display: none;*!*/
+        /*font-size: x-small;*/
+    /*}*/
+/*}*/
+@media screen and (max-width: 768px) {
+
+    #rightSide {display: block;}
+    #leftSide {display: none;}
+
 }
