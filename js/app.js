@@ -27,3 +27,18 @@ function showCertifivateTechno() {
 
 
 }
+function mobileTypeInfo() {
+    let rightSide = document.getElementById('rightSide');
+    let leftSide = document.getElementById('leftSide');
+    let btnMoreInfo = document.getElementById('mobileType');
+
+    if(btnMoreInfo.value === 'Skills'){
+        rightSide.style.display = 'none';
+        leftSide.style.display = 'block';
+        btnMoreInfo.value = 'Experience';
+    }else if(btnMoreInfo.value === 'Experience'){
+        rightSide.style.display = 'inline';
+        leftSide.style.display = 'none';
+        btnMoreInfo.value = 'Skills';
+    }
+}
