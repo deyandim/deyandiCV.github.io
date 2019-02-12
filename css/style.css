@@ -117,10 +117,9 @@ a {
     #mobileMain {width: 90%}
     #skills {width: 90%}
 
-    /*#mobileMain {border-top-left-radius: 3%}*/
-    /*#mobileMain {border-top-right-radius: 3%}*/
     #mainSkills {border-top-left-radius: 3%}
     #mainSkills {border-top-right-radius: 3%}
-    /*#mainSkills {border-radius: 3%}*/
+
+    .jobImg {margin-bottom: 700%}
 
 }
